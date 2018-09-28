@@ -1,5 +1,12 @@
+import java.io.File;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("hello world");
+        File f = new File("./data/1.txt");
+        if (f.exists()) {
+            System.out.println("Exist");
+        } else {
+            System.out.println("No File");
+        }
     }
 }
