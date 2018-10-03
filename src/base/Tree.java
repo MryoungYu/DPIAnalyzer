@@ -1,4 +1,8 @@
-package tree;
+package base;
+
+import base.Node;
+
+import java.util.List;
 
 public class Tree {
     public Node root;
